@@ -1,0 +1,17 @@
+.purple {
+	color:#6d2f9c;
+}
+
+.container h1 {
+	font-size:6vw;
+}
+.container p, .container ul li {
+	font-size: 1.2vw;
+}
+.container p {
+	margin-top:20px;
+}
+
+footer {
+	background-color: #6d2f9c;
+}
