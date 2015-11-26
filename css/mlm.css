@@ -2,12 +2,49 @@
 	color:#6d2f9c;
 }
 
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
 .container h1 {
-	font-size:5vw;
+	font-size:50px;
+	margin-top:11vw;
 }
 .container p, .container ul li {
-	font-size: 1.2vw;
+	font-size: 2vw;
 }
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 767px) { 
+	.container h1 {
+		font-size:58px;
+		margin-top:11vw;
+	}
+	.container p, .container ul li {
+		font-size: 1.7vw;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 993px) { 
+	.container h1 {
+		font-size:80px;
+		margin-top:5vw;
+	}
+
+	.container p, .container ul li {
+		font-size: 1.5vw;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1201px) { 
+	.container h1 {
+		font-size:90px;
+		margin-top:4vw;
+	}
+}
+
 .container p {
 	margin-top:20px;
 }
